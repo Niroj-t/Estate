@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import Header from './Components/Header'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import About from './Components/About'
+import Projects from './Components/Projects'
+const App = () => {
   return (
     <div className='w-full overflow-hidden'>
        <Header/>
+       <About/>
+       <Projects/>
     </div>
   )
 }
