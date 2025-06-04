@@ -29,7 +29,7 @@ const Projects = () => {
     };
   return (
     <div className='container mx-auto py-4 pt-20  md:px-20 lg:px-32 w-full overflow-hidden' id='Projects'>
-        <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Projects<span className='underline underline-offset-4 decoration-1 under font-light'> Completed</span></h1>
+        <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Projects<span className='underline underline-offset-4 decoration-1 under font-light px-2'>Completed</span></h1>
         <p className='text-center text-gray-500 mb-8 max-w-80 mx-auto'>Crafting Spaces, Building Legacies_Explore Our Portfolio</p>
 
         {/*slider buttons*/}
@@ -54,7 +54,7 @@ const Projects = () => {
                     <div className='inline-block bg-white w-3/4 px-4 py-2 shadow-md'>
                         <h2 className='text-xl font-semibold text-gray-800'>{project.title}</h2>
                          <p className='text-gray-500 text-sm'>
-                            {project.price} <span></span>{project.location}
+                            {project.price} <span className='px-1'></span>{project.location}
                          </p>
                     </div>
 
