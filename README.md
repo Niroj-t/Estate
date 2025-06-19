@@ -12,7 +12,7 @@ A modern real estate web application built with **React**, **Vite**, and **Tailw
 - Modern UI with Tailwind CSS
 - Toast notifications for user feedback
 ## Demo
-https://estate-8ute.vercel.app/#Header
+https://estate-8ute.vercel.app
 
 ### Installation
 
